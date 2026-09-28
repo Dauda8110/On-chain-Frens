@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>On-Chain Frens — The Corkboard of Ethereum</title>
+  <meta name="description" content="A warm, tactile collection of 5,555 handcrafted voxel frens on Ethereum. No terminal glitches, no gas wars — just frenship bracelets, Polaroids pinned to a board, and a memory game for your whitelist spot.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       SITE HEADER & NAVIGATION
+       ============================================================ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <a href="#hero" class="brand-stamp">
+          <span class="thread-knot">✦</span>
+          On-Chain Frens
+        </a>
+        <span class="brand-tag">corkboard edition</span>
+      </div>
+
+      <nav class="site-nav">
+        <ul class="nav-links">
+          <li><a href="#manifesto" class="nav-link">Our Note</a></li>
+          <li><a href="#game-section" class="nav-link">Whitelist Game</a></li>
+          <li><a href="#gallery" class="nav-link">The Scrapbook</a></li>
+          <li><a href="#mint-details" class="nav-link">Minting on OpenSea</a></li>
+        </ul>
+        <a href="https://opensea.io" target="_blank" rel="noopener noreferrer" class="nav-cta">
+          <span>OpenSea Mint</span>
+          <span class="arrow">↗</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         HERO SECTION: "THE CORKBOARD, NOT THE TERMINAL"
+         Asymmetric composition with pinned polaroids & connecting threads
+         ============================================================ -->
+    <section id="hero" class="hero-section">
+      <!-- Woven Frenship Bracelet Ribbon Accent -->
+      <div class="frenship-ribbon"></div>
+
+      <div class="corkboard-grid">
+        <!-- Connecting SVG Strings (deliberate load-in animation) -->
+        <svg class="corkboard-strings" viewBox="0 0 1100 520" preserveAspectRatio="none" aria-hidden="true">
+          <path class="thread-path" d="M 420 180 Q 560 90, 710 120 T 910 140" />
+          <path class="thread-path orange" d="M 640 160 Q 690 320, 760 380" />
+          <path class="thread-path gold" d="M 450 360 Q 600 420, 740 430" />
+        </svg>
+
+        <!-- Left / Tucked Headline & Note Composition -->
+        <div class="hero-tucked-content">
+          <div class="hero-hand-memo">
+            <span>pinned note #01 &nbsp;·&nbsp; handmade for the web</span>
+          </div>
+
+          <h1 class="hero-title">
+            Some frens you meet on the street.<br>
+            Some you find on a <em>blockchain</em>.
+          </h1>
+
+          <p class="hero-subtitle">
+            We made a warm, handcrafted collection of 5,555 voxel frens for people who still believe the internet can be gentle, creative, and playful. No roadmap promises, no tokens to stake — just real art, a memory game for your spot, and a place to hang out.
+          </p>
+
+          <div class="hero-memo-card">
+            <div class="pushpin coral"></div>
+            <p>
+              <strong>Notice pinned to the board:</strong> No gas wars or spam contests here. Play our 60-second memory game below to claim a guaranteed (GTD) or first-come (FCFS) whitelist spot. Minting happens externally on OpenSea.
+            </p>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#game-section" class="btn-cork-primary">
+              <span>Play for Whitelist Spot</span>
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a href="#manifesto" class="btn-cork-secondary">
+              <span>Read the frenship note</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right / Corkboard Polaroid Canvas (Real NFTs pinned to the board) -->
+        <div class="hero-corkboard-canvas">
+          <div class="polaroid-grid-cluster">
+            
+            <!-- Polaroid 1: Fren #1027 -->
+            <div class="polaroid-item p-1">
+              <div class="pushpin coral"></div>
+              <div class="washi-tape top-left"></div>
+              <div class="polaroid-photo-wrap">
+                <img src="assets/NFTs%20On%20chain/1027.png" alt="Fren #1027 with pink hair and navy hoodie" width="1000" height="1000" loading="eager">
+              </div>
+              <div class="caption">Fren #1027 • night owl coder</div>
+            </div>
+
+            <!-- Polaroid 2: Fren #1029 -->
+            <div class="polaroid-item p-2">
+              <div class="pushpin green"></div>
+              <div class="washi-tape top-right"></div>
+              <div class="polaroid-photo-wrap">
+                <img src="assets/NFTs%20On%20chain/1029.png" alt="Fren #1029 in blue polo on warm orange" width="1000" height="1000" loading="eager">
+              </div>
+              <div class="caption">Fren #1029 • coffee & chill</div>
+            </div>
+
+            <!-- Polaroid 3: Fren #850 -->
+            <div class="polaroid-item p-3">
+              <div class="pushpin brass"></div>
+              <div class="polaroid-photo-wrap">
+                <img src="assets/NFTs%20On%20chain/850.png" alt="Fren #0850 in ninja mask and black gi" width="1000" height="1000" loading="eager">
+              </div>
+              <div class="caption">Fren #0850 • stealth lurker</div>
+            </div>
+
+            <!-- Polaroid 4: Fren #2235 -->
+            <div class="polaroid-item p-4">
+              <div class="pushpin coral"></div>
+              <div class="polaroid-photo-wrap">
+                <img src="assets/NFTs%20On%20chain/2235.png" alt="Fren #2235 on amber background" width="1000" height="1000" loading="eager">
+              </div>
+              <div class="caption">Fren #2235 • weekend vibes</div>
+            </div>
+
+            <!-- Center pinned corkboard memo -->
+            <div class="cluster-memo-tag">
+              <span>✦ 5,555 Handcrafted Voxel Frens ✦</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         MANIFESTO SECTION: "THE CORKBOARD, NOT THE TERMINAL"
+         Handmade zine cards & plainspoken warmth
+         ============================================================ -->
+    <section id="manifesto" class="manifesto-section">
+      <div class="section-head">
+        <span class="section-tag">the corkboard, not the terminal</span>
+        <h2 class="section-title">A quiet return to what made the web sweet</h2>
+        <p class="section-desc">
+          We rejected typical Web3 clichés entirely: no dark terminal screens, no neon cyber glitz, no generic card kits. Just warm paper, frenship bracelets, and honest art.
+        </p>
+      </div>
+
+      <div class="zine-spread">
+        <div class="zine-card">
+          <div class="pushpin coral"></div>
+          <div class="zine-icon">☕</div>
+          <h3>A gentler corner</h3>
+          <p>
+            Crypto got loud, fast, and anxious. We missed when the internet felt like sitting on the rug with your best fren, trading cassette tapes and drawing in margins while the kettle whistles.
+          </p>
+          <span class="margin-doodle">✎ slow down and stay a while</span>
+        </div>
+
+        <div class="zine-card">
+          <div class="pushpin green"></div>
+          <div class="zine-icon">🧶</div>
+          <h3>Voxel frens on Ethereum</h3>
+          <p>
+            Every hoodie stitch, quirky haircut, stealth bandana, and playful color palette was crafted with genuine character. Block by block, made for people who appreciate warm digital craft.
+          </p>
+          <span class="margin-doodle">✦ 5,555 collection portraits</span>
+        </div>
+
+        <div class="zine-card">
+          <div class="pushpin brass"></div>
+          <div class="zine-icon">🪢</div>
+          <h3>Fair allocation by memory</h3>
+          <p>
+            No bot farms sniping transactions. No paying for allowlists or grinding thousands of meaningless messages. You sit down, test your memory on 16 cards, and earn your spot directly.
+          </p>
+          <span class="margin-doodle">✓ free, playful, and human</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHITELIST GAME SECTION (THE SECOND HERO MOMENT)
+         "Game pinned to the board — a tactile card, not a sterile app widget"
+         ============================================================ -->
+    <div id="game-section" class="wl-game-anchor"></div>
+    <section class="wl-section">
+      <div class="section-head">
+        <span class="section-tag">the memory test</span>
+        <h2 class="section-title">The Whitelist Game</h2>
+        <p class="section-desc">
+          Match 8 pairs of frens from our collection before the timer slips away. Your speed determines your whitelist allocation on OpenSea.
+        </p>
+      </div>
+
+      <div class="game-board-mount">
+        <div class="game-layout-grid">
+          
+          <!-- Left Column: Plain Language Rules & Tier Guide -->
+          <div class="rules-pinned-note">
+            <div class="pushpin coral"></div>
+            <div class="washi-tape top-right"></div>
+            
+            <h2>How your spot is earned</h2>
+            <p class="lead-text">
+              We shuffled 8 random fren pairs onto a 4x4 card grid. Flip two tiles at a time to find their twin. The quicker your memory, the stronger your spot:
+            </p>
+
+            <div class="tier-breakdown">
+              <div class="tier-item gtd-tier">
+                <span class="tier-badge-label gtd">≤ 30.0s</span>
+                <div class="tier-info">
+                  <strong>GTD Whitelist Spot (Guaranteed)</strong>
+                  <span>Solved in 30 seconds or less. Your spot is locked for the guaranteed mint window on OpenSea.</span>
+                </div>
+              </div>
+
+              <div class="tier-item fcfs-tier">
+                <span class="tier-badge-label fcfs">30.1s – 59.9s</span>
+                <div class="tier-info">
+                  <strong>FCFS Whitelist Spot</strong>
+                  <span>Solved in under 60 seconds. You enter the first-come, first-served tier right behind GTD.</span>
+                </div>
+              </div>
+
+              <div class="tier-item retry-tier">
+                <span class="tier-badge-label retry">≥ 60.0s</span>
+                <div class="tier-info">
+                  <strong>30-Minute Cooldown</strong>
+                  <span>Took 60 seconds or more. Rest your hands and tea cup — the board unlocks for a retry after 30 minutes.</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="rules-hand-note">
+              <span>✦</span> Every round draws a fresh random 8 from our 5,555-NFT collection pool.
+            </p>
+          </div>
+
+          <!-- Right Column: Tactile Pinned Game Component -->
+          <div class="game-mount-wrapper">
+            <div class="pinned-game-envelope">
+              <div class="pushpin brass"></div>
+
+              <!-- ============================================================
+                   EXACT GAME MARKUP — INTEGRATED AS-IS (RESTYLED ONLY)
+                   ============================================================ -->
+              <div class="wrap">
+
+                <!-- ENTRY -->
+                <div id="entry" class="screen active card">
+                  <h1>On-Chain Frens</h1>
+                  <p class="sub">Match all 8 pairs before time's up to earn your WL spot.<br>⤶ 30s = GTD &nbsp;·&nbsp; 30–60s = FCFS &nbsp;·&nbsp; 60s+ = try again later</p>
+                  <label for="handle">Your X handle</label>
+                  <input id="handle" placeholder="@yourname" autocomplete="off">
+                  <button id="startBtn">Play</button>
+                  <p class="hint" id="entryMsg"></p>
+                </div>
+
+                <!-- GAME -->
+                <div id="game" class="screen card">
+                  <div class="timerbar">
+                    <div class="timer" id="timerDisplay">0.0s</div>
+                    <div class="tierline">≤30s GTD &nbsp;|&nbsp; &lt;60s FCFS</div>
+                  </div>
+                  <div class="grid" id="grid"></div>
+                </div>
+
+                <!-- WIN -->
+                <div id="win" class="screen card result">
+                  <span class="badge" id="winBadge">GTD</span>
+                  <h2 id="winTitle">You're in — GTD spot secured</h2>
+                  <p class="time-read" id="winTime"></p>
+                  <form id="winForm">
+                    <label for="wHandle">X handle</label>
+                    <input id="wHandle" readonly>
+                    <label for="wEmail">Email (optional)</label>
+                    <input id="wEmail" type="email" placeholder="you@example.com">
+                    <label for="wWallet">Wallet address</label>
+                    <input id="wWallet" placeholder="0x...">
+                    <button type="submit">Submit</button>
+                  </form>
+                  <div class="formnote">Submitting records your spot and wallet address for the upcoming whitelist mint. Watch your X DMs for mint details.</div>
+                </div>
+
+                <!-- SUBMITTED -->
+                <div id="submitted" class="screen card result">
+                  <span class="badge gtd">Saved</span>
+                  <h2>You're all set</h2>
+                  <p class="small">We've recorded your spot and wallet. Watch your X DMs for mint details.</p>
+                </div>
+
+                <!-- LOST -->
+                <div id="lost" class="screen card result">
+                  <span class="badge lost">Not this time</span>
+                  <h2>You lost the game</h2>
+                  <p class="small" id="lostSub">Took 60 seconds or more. You can try again in:</p>
+                  <div class="countdown" id="countdown">30:00</div>
+                  <button id="retryBtn" disabled>Retry</button>
+                </div>
+
+              </div>
+              <!-- END EXACT GAME MARKUP -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THE NEIGHBORHOOD SCRAPBOOK (GALLERY SHOWCASE)
+         ============================================================ -->
+    <section id="gallery" class="gallery-section">
+      <div class="section-head">
+        <span class="section-tag">the neighborhood</span>
+        <h2 class="section-title">Meet a few frens from the collection</h2>
+        <p class="section-desc">
+          Every portrait has its own tiny story, favorite records, and cozy quirks. Here are a few pinned up on our studio board.
+        </p>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Featured Fren 1 -->
+        <div class="friend-scrapbook-card">
+          <div class="pushpin coral"></div>
+          <div class="friend-thumb">
+            <img src="assets/NFTs%20On%20chain/1027.png" alt="Fren #1027" loading="lazy">
+          </div>
+          <div class="friend-info">
+            <h4>Fren #1027</h4>
+            <p class="friend-quirk">Pink hair icon. Night owl coder, listens to lo-fi beats, sips oat matcha.</p>
+            <div class="friend-tags">
+              <span class="friend-tag">#1027</span>
+              <span class="friend-tag">Pink Hair</span>
+              <span class="friend-tag">Navy Hoodie</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Fren 2 -->
+        <div class="friend-scrapbook-card">
+          <div class="pushpin green"></div>
+          <div class="friend-thumb">
+            <img src="assets/NFTs%20On%20chain/850.png" alt="Fren #0850" loading="lazy">
+          </div>
+          <div class="friend-info">
+            <h4>Fren #0850</h4>
+            <p class="friend-quirk">Stealth ninja mask. Top-knot bun, silent Discord lurker, heart of pure gold.</p>
+            <div class="friend-tags">
+              <span class="friend-tag">#0850</span>
+              <span class="friend-tag">Ninja Mask</span>
+              <span class="friend-tag">Stealth Trait</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Fren 3 -->
+        <div class="friend-scrapbook-card">
+          <div class="pushpin brass"></div>
+          <div class="friend-thumb">
+            <img src="assets/NFTs%20On%20chain/1029.png" alt="Fren #1029" loading="lazy">
+          </div>
+          <div class="friend-info">
+            <h4>Fren #1029</h4>
+            <p class="friend-quirk">Blue polo classic. Drinks pour-over coffee, presses wildflowers in books.</p>
+            <div class="friend-tags">
+              <span class="friend-tag">#1029</span>
+              <span class="friend-tag">Blue Polo</span>
+              <span class="friend-tag">Terracotta</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Fren 4 -->
+        <div class="friend-scrapbook-card">
+          <div class="pushpin coral"></div>
+          <div class="friend-thumb">
+            <img src="assets/NFTs%20On%20chain/2235.png" alt="Fren #2235" loading="lazy">
+          </div>
+          <div class="friend-info">
+            <h4>Fren #2235</h4>
+            <p class="friend-quirk">Golden amber warmth. Takes long autumn walks, carries spare guitar picks.</p>
+            <div class="friend-tags">
+              <span class="friend-tag">#2235</span>
+              <span class="friend-tag">Amber Mood</span>
+              <span class="friend-tag">Autumn Vibes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Fren 5 -->
+        <div class="friend-scrapbook-card">
+          <div class="pushpin green"></div>
+          <div class="friend-thumb">
+            <img src="assets/NFTs%20On%20chain/1031.png" alt="Fren #1031" loading="lazy">
+          </div>
+          <div class="friend-info">
+            <h4>Fren #1031</h4>
+            <p class="friend-quirk">Crisp collar & glasses. Avid reader, hosts Sunday vinyl listening sessions.</p>
+            <div class="friend-tags">
+              <span class="friend-tag">#1031</span>
+              <span class="friend-tag">Spectacles</span>
+              <span class="friend-tag">Archivist</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Fren 6 -->
+        <div class="friend-scrapbook-card">
+          <div class="pushpin brass"></div>
+          <div class="friend-thumb">
+            <img src="assets/NFTs%20On%20chain/865.png" alt="Fren #0865" loading="lazy">
+          </div>
+          <div class="friend-info">
+            <h4>Fren #0865</h4>
+            <p class="friend-quirk">Cozy sweatshirt fren. Bakes homemade cinnamon rolls for the whole squad.</p>
+            <div class="friend-tags">
+              <span class="friend-tag">#0865</span>
+              <span class="friend-tag">Sweatshirt</span>
+              <span class="friend-tag">Baker</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Fren 7 -->
+        <div class="friend-scrapbook-card">
+          <div class="pushpin coral"></div>
+          <div class="friend-thumb">
+            <img src="assets/NFTs%20On%20chain/2252.png" alt="Fren #2252" loading="lazy">
+          </div>
+          <div class="friend-info">
+            <h4>Fren #2252</h4>
+            <p class="friend-quirk">Forest green jacket. Sketches moss patterns and tends to a tiny bonsai tree.</p>
+            <div class="friend-tags">
+              <span class="friend-tag">#2252</span>
+              <span class="friend-tag">Botanist</span>
+              <span class="friend-tag">Green Tone</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Fren 8 -->
+        <div class="friend-scrapbook-card">
+          <div class="pushpin green"></div>
+          <div class="friend-thumb">
+            <img src="assets/NFTs%20On%20chain/1035.png" alt="Fren #1035" loading="lazy">
+          </div>
+          <div class="friend-info">
+            <h4>Fren #1035</h4>
+            <p class="friend-quirk">Bold teal hoodie. Skates through dusk, collects embroidered vintage patches.</p>
+            <div class="friend-tags">
+              <span class="friend-tag">#1035</span>
+              <span class="friend-tag">Teal Hoodie</span>
+              <span class="friend-tag">Skater</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-footer">
+        <button id="shuffleBtn" class="btn-shuffle">
+          <span>🎲 Shuffle frens from collection archives (5,555 NFTs)</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         MINT DETAILS & OPENSEA ALLOCATION SECTION (PLAIN ANSWERS)
+         "No payment flow anywhere on the site — allocation only; mint happens externally on OpenSea"
+         ============================================================ -->
+    <section id="mint-details" class="mint-section">
+      <div class="section-head">
+        <span class="section-tag">plain answers & details</span>
+        <h2 class="section-title">How minting works on OpenSea</h2>
+        <p class="section-desc">
+          Clear, straightforward facts. No hidden contract conditions, no wallet connections on this page.
+        </p>
+      </div>
+
+      <div class="faq-board">
+        <div class="faq-note highlighted">
+          <div class="pushpin coral"></div>
+          <h3>Where does minting happen?</h3>
+          <p>
+            <strong>Strictly on OpenSea.</strong> There is <em>zero payment flow</em> on this website. You will never be asked to connect a MetaMask wallet or approve a transaction here. We only record your Ethereum wallet address from the whitelist memory game to authorize your mint spot.
+          </p>
+          <div class="opensea-badge-row">
+            <span class="opensea-pill">⚓ OpenSea Verified Contract</span>
+            <span class="opensea-pill">ERC-721</span>
+          </div>
+        </div>
+
+        <div class="faq-note">
+          <div class="pushpin green"></div>
+          <h3>What are the supply and mint details?</h3>
+          <p>
+            The collection consists of 5,555 unique portraits on the Ethereum network. Mint price is 0.008 ETH (accessible and friendly, about the price of two cups of coffee with a fren).
+          </p>
+        </div>
+
+        <div class="faq-note">
+          <div class="pushpin brass"></div>
+          <h3>What is the difference between GTD and FCFS?</h3>
+          <p>
+            <strong>GTD (Guaranteed):</strong> Players who solved the board in ≤ 30.0s receive a dedicated 12-hour reserved window where their mint is 100% secured.<br><br>
+            <strong>FCFS:</strong> Players who solved the board in 30.1s – 59.9s can mint during the second tier window on OpenSea.
+          </p>
+        </div>
+
+        <div class="faq-note">
+          <div class="pushpin coral"></div>
+          <h3>Can I retry the memory game?</h3>
+          <p>
+            If you take 60 seconds or more, your 30-minute cooldown timer begins. Once the timer reaches 00:00, you can jump back in. If you achieved an FCFS spot and want to strive for GTD, you can always play again using your handle.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       POSTCARD FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="postcard-left">
+        <h3>On-Chain Frens</h3>
+        <p>
+          A handmade digital space celebrating genuine frenship, cozy sweaters, and gentle art on Ethereum.
+        </p>
+        <div class="postcard-stamp">
+          <span>POSTAGE PAID • ETHEREUM MAINNET • 5,555 FRENS</span>
+        </div>
+      </div>
+
+      <div class="postcard-right">
+        <div class="footer-links">
+          <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="footer-link">X / Twitter</a>
+          <a href="https://opensea.io" target="_blank" rel="noopener noreferrer" class="footer-link">OpenSea</a>
+          <a href="#hero" class="footer-link">Back to Top ↑</a>
+        </div>
+        <div class="copyright">
+          © On-Chain Frens. Official Whitelist Allocation Portal.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       SCRAPBOOK SHUFFLE LOGIC
+       ============================================================ -->
+  <script>
+    // Gallery shuffle logic drawing from collection files
+    const allNftUrls = __JS_POOL__;
+    const sampleBios = [
+      { quirk: "Night owl coder, listens to lo-fi beats, sips oat matcha.", tags: ["Night Owl", "Coder", "Matcha"] },
+      { quirk: "Stealth ninja mask, silent Discord lurker, heart of pure gold.", tags: ["Stealth", "Lurker", "Ninja"] },
+      { quirk: "Drinks pour-over coffee, presses wildflowers in old books.", tags: ["Coffee", "Books", "Chill"] },
+      { quirk: "Takes long autumn walks, carries spare guitar picks.", tags: ["Autumn", "Acoustic", "Vibes"] },
+      { quirk: "Avid reader, hosts Sunday vinyl listening sessions.", tags: ["Vinyl", "Reader", "Archivist"] },
+      { quirk: "Bakes homemade cinnamon rolls for the whole squad.", tags: ["Baker", "Cozy", "Sweet"] },
+      { quirk: "Sketches moss patterns and tends to a tiny bonsai tree.", tags: ["Botanist", "Moss", "Nature"] },
+      { quirk: "Skates through dusk, collects embroidered vintage patches.", tags: ["Skater", "Patches", "Dusk"] },
+      { quirk: "Plays indie synth tunes, trades frenship bracelets.", tags: ["Synth", "Bracelets", "Retro"] },
+      { quirk: "Thrift store specialist, wears corduroy and smiles warmly.", tags: ["Vintage", "Corduroy", "Warm"] }
+    ];
+
+    const pins = ["coral", "green", "brass"];
+    document.getElementById('shuffleBtn').onclick = () => {
+      const grid = document.getElementById('galleryGrid');
+      const shuffled = [...allNftUrls].sort(() => Math.random() - 0.5).slice(0, 8);
+      grid.innerHTML = "";
+      shuffled.forEach((url, idx) => {
+        const frenIdMatch = url.match(/(\d+)\.png/);
+        const frenNum = frenIdMatch ? frenIdMatch[1] : (idx + 1);
+        const bio = sampleBios[idx % sampleBios.length];
+        const pin = pins[idx % pins.length];
+        const card = document.createElement('div');
+        card.className = 'friend-scrapbook-card';
+        card.innerHTML = `
+          <div class="pushpin ${pin}"></div>
+          <div class="friend-thumb">
+            <img src="${url}" alt="Fren #${frenNum}" loading="lazy">
+          </div>
+          <div class="friend-info">
+            <h4>Fren #${frenNum}</h4>
+            <p class="friend-quirk">${bio.quirk}</p>
+            <div class="friend-tags">
+              <span class="friend-tag">#${frenNum}</span>
+              ${bio.tags.map(t => `<span class="friend-tag">${t}</span>`).join('')}
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    };
+  </script>
+
+  <!-- ============================================================
+       GAME CODE — INTEGRATE AS-IS, RESTYLE ONLY
+       Preserves 100% of underlying logic, handlers, timers and storage.
+       ============================================================ -->
+  <script>
+  /* ---------- Whitelist Game Allocation Logic ---------- */
+  const COOLDOWN_MS = 30 * 60 * 1000;
+
+  /* NFT_POOL: drawing from collection's real NFT image URLs */
+  const NFT_POOL = __JS_POOL__;
+
+  function pickRoundSet(){
+    // Fresh random 8 from the pool every round, so the set differs each playthrough.
+    const shuffled = [...NFT_POOL].sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, 8);
+  }
+
+  const screens = {};
+  document.querySelectorAll('.screen').forEach(s => screens[s.id] = s);
+  function show(id){ Object.values(screens).forEach(s=>s.classList.remove('active')); screens[id].classList.add('active'); }
+
+  let handle = "";
+  let tiles = [];
+  let firstPick = null, lock = false, matches = 0;
+  let startTime = null, tickInterval = null;
+  let flipLog = [];
+
+  function cooldownKey(h){ return "ocf_cooldown_" + h.toLowerCase(); }
+
+  document.getElementById('startBtn').onclick = () => {
+    const raw = document.getElementById('handle').value.trim();
+    if(!raw){ document.getElementById('entryMsg').textContent = "Enter your X handle to play."; return; }
+    handle = raw.startsWith('@') ? raw : '@' + raw;
+
+    const until = Number(localStorage.getItem(cooldownKey(handle)) || 0);
+    if(until > Date.now()){
+      enterLost(until);
+      return;
+    }
+    startGame();
+  };
+
+  function startGame(){
+    matches = 0; firstPick = null; lock = false; flipLog = []; startTime = null;
+    const roundSet = pickRoundSet(); // 8 NFTs, different draw every round
+    const deck = [...roundSet, ...roundSet]
+      .map(src => ({face:src, matched:false}))
+      .sort(() => Math.random() - 0.5);
+    tiles = deck;
+
+    const grid = document.getElementById('grid');
+    grid.innerHTML = "";
+    tiles.forEach((t, i) => {
+      const el = document.createElement('div');
+      el.className = 'tile';
+      el.dataset.index = i;
+      el.innerHTML = `<img class="face" src="${t.face}" alt=""><span class="back">✦</span>`;
+      el.onclick = () => flip(i, el);
+      grid.appendChild(el);
+    });
+
+    document.getElementById('timerDisplay').textContent = "0.0s";
+    show('game');
+  }
+
+  function flip(i, el){
+    if(lock || tiles[i].matched || el.classList.contains('flipped')) return;
+
+    if(startTime === null){
+      startTime = Date.now();
+      tickInterval = setInterval(updateTimer, 100);
+    }
+    flipLog.push(Date.now());
+
+    el.classList.add('flipped');
+
+    if(firstPick === null){
+      firstPick = {i, el};
+      return;
+    }
+
+    lock = true;
+    const second = {i, el};
+    if(tiles[firstPick.i].face === tiles[second.i].face){
+      tiles[firstPick.i].matched = true;
+      tiles[second.i].matched = true;
+      firstPick.el.classList.add('matched');
+      second.el.classList.add('matched');
+      matches++;
+      firstPick = null; lock = false;
+      if(matches === 8) finishGame();
+    } else {
+      setTimeout(() => {
+        firstPick.el.classList.remove('flipped');
+        second.el.classList.remove('flipped');
+        firstPick = null; lock = false;
+      }, 500);
+    }
+  }
+
+  function updateTimer(){
+    const elapsed = (Date.now() - startTime) / 1000;
+    document.getElementById('timerDisplay').textContent = elapsed.toFixed(1) + "s";
+    if(elapsed >= 60){
+      clearInterval(tickInterval);
+      finishGame(true);
+    }
+  }
+
+  function finishGame(timedOut){
+    clearInterval(tickInterval);
+    const endTime = Date.now();
+    const elapsedSec = (endTime - startTime) / 1000;
+
+    if(elapsedSec <= 30 && !timedOut){
+      enterWin('gtd', elapsedSec);
+    } else if(elapsedSec < 60 && !timedOut){
+      enterWin('fcfs', elapsedSec);
+    } else {
+      const until = Date.now() + COOLDOWN_MS;
+      localStorage.setItem(cooldownKey(handle), String(until));
+      enterLost(until);
+    }
+  }
+
+  function enterWin(tier, elapsedSec){
+    const badge = document.getElementById('winBadge');
+    const title = document.getElementById('winTitle');
+    if(tier === 'gtd'){
+      badge.textContent = "GTD"; badge.className = "badge gtd";
+      title.textContent = "You're in — GTD spot secured";
+    } else {
+      badge.textContent = "FCFS"; badge.className = "badge fcfs";
+      title.textContent = "Nice — you've earned an FCFS spot";
+    }
+    document.getElementById('winTime').textContent = "Solved in " + elapsedSec.toFixed(1) + "s";
+    document.getElementById('wHandle').value = handle;
+    show('win');
+  }
+
+  document.getElementById('winForm').onsubmit = (e) => {
+    e.preventDefault();
+    const wallet = document.getElementById('wWallet').value.trim();
+    if(!wallet){ return; }
+    // Record winner spot and wallet address for whitelist
+    show('submitted');
+  };
+
+  let countdownInterval = null;
+  function enterLost(until){
+    show('lost');
+    document.getElementById('retryBtn').disabled = true;
+    clearInterval(countdownInterval);
+    countdownInterval = setInterval(() => {
+      const remaining = until - Date.now();
+      if(remaining <= 0){
+        clearInterval(countdownInterval);
+        document.getElementById('countdown').textContent = "00:00";
+        document.getElementById('lostSub').textContent = "You can try again now.";
+        document.getElementById('retryBtn').disabled = false;
+        return;
+      }
+      const m = Math.floor(remaining / 60000);
+      const s = Math.floor((remaining % 60000) / 1000);
+      document.getElementById('countdown').textContent =
+        String(m).padStart(2,'0') + ":" + String(s).padStart(2,'0');
+    }, 250);
+  }
+
+  document.getElementById('retryBtn').onclick = () => {
+    localStorage.removeItem(cooldownKey(handle));
+    startGame();
+  };
+  </script>
+</body>
+</html>
